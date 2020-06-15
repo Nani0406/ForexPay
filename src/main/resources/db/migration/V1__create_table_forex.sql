@@ -1,1 +1,1 @@
-create table forex (name VARCHAR(255));
+create table employee (name VARCHAR(255));
