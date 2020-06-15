@@ -1,0 +1,1 @@
+insert into forex (ID, CURRENCY) values (1, 'INR');
