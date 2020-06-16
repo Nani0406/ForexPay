@@ -1,1 +1,1 @@
-insert into employee (Name) values ('Suman');
+insert into employee (name) values ('Suman');
