@@ -133,7 +133,7 @@
 			    	<version>6.4.4</version>
 			    	<configuration>
 					<baselineOnMigrate>true</baselineOnMigrate>
-				 	<url>jdbc:mysql://13.232.31.28:3306</url>
+				 	<url>jdbc:mysql://13.127.192.227:3306</url>
 				 	<user>inguser</user>
 				  	<password>H@ckath0n</password>
 			      		<schemas>
