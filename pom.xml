@@ -72,20 +72,20 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.flywaydb</groupId> 
 		 	<artifactId>flyway-core</artifactId> 
 			<version>6.4.4</version> 
-		</dependency>
+		</dependency> -->
 	</dependencies>
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://15.206.170.113:8081/nexus/content/repositories/snapshots</url>
+			<url>http://13.232.112.7:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
 			<id>nexus</id>
-			<url>http://15.206.170.113:8081/nexus/content/repositories/releases</url>
+			<url>http://13.232.112.7:8081/nexus/content/repositories/releases</url>
 		</repository>
 	</distributionManagement>
 
@@ -127,7 +127,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+<!-- 			<plugin>
 				<groupId>org.flywaydb</groupId>
 			    	<artifactId>flyway-maven-plugin</artifactId>
 			    	<version>6.4.4</version>
@@ -140,7 +140,7 @@
 				  		<schema>forexpay</schema>
 					</schemas>
 			  	</configuration>	
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
 
