@@ -154,7 +154,7 @@
 						</goals>
 						<configuration>
 							<baselineOnMigrate>true</baselineOnMigrate>
-							<url>jdbc:mysql://52.66.244.13:3306</url>
+							<url>jdbc:mysql://13.233.15.221:3306</url>
 							<user>inguser</user>
 							<password>H@ckath0n</password>
 							<schemas>
