@@ -133,6 +133,7 @@
 			    	<version>6.4.4</version>
 				<executions>
         				<execution>
+						<id>first-execution</id>
 						<configuration>
 							<baselineOnMigrate>true</baselineOnMigrate>
 							<url>jdbc:mysql://13.235.247.152:3306</url>
@@ -144,6 +145,7 @@
 						</configuration>
 					</execution>
 					<execution>
+						<id>second-execution</id>
 						<configuration>
 							<baselineOnMigrate>true</baselineOnMigrate>
 							<url>jdbc:mysql://52.66.244.13:3306</url>
