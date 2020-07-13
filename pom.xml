@@ -81,11 +81,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://13.127.221.82:8081/nexus/content/repositories/snapshots</url>
+			<url>http://52.66.197.219:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
 			<id>nexus</id>
-			<url>http://13.127.221.82:8081/nexus/content/repositories/releases</url>
+			<url>http://52.66.197.219:8081/nexus/content/repositories/releases</url>
 		</repository>
 	</distributionManagement>
 
@@ -133,7 +133,7 @@
 			    	<version>6.4.4</version>
 			    	<configuration>
 					<baselineOnMigrate>true</baselineOnMigrate>
-				 	<url>jdbc:mysql://52.66.214.30:3306</url>
+				 	<url>jdbc:mysql://13.235.247.152:3306</url>
 				 	<user>inguser</user>
 				  	<password>H@ckath0n</password>
 			      		<schemas>
