@@ -134,9 +134,7 @@
 				<executions>
 					<execution>
 						<id>first-execution</id>
-						<goals>
-							<goal>migrate</goal>
-						</goals>
+						
 						<configuration>
 							<baselineOnMigrate>true</baselineOnMigrate>
 							<url>jdbc:mysql://13.235.247.152:3306</url>
@@ -149,9 +147,7 @@
 					</execution>
 					<execution>
 						<id>second-execution</id>
-						<goals>
-							<goal>migrate</goal>
-						</goals>
+						
 						<configuration>
 							<baselineOnMigrate>true</baselineOnMigrate>
 							<url>jdbc:mysql://13.233.15.221:3306</url>
