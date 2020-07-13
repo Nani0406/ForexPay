@@ -130,23 +130,8 @@
 			<plugin>
 				<groupId>org.flywaydb</groupId>
 			    	<artifactId>flyway-maven-plugin</artifactId>
-			    	<version>6.4.4</version>
+			    	<version>6.5</version>
 				<executions>
-        				<execution>
-						<id>first-execution</id>
-						<goals>
-                					<goal>migrate</goal>
-            					</goals>
-						<configuration>
-							<baselineOnMigrate>true</baselineOnMigrate>
-							<url>jdbc:mysql://13.235.247.152:3306</url>
-							<user>inguser</user>
-							<password>H@ckath0n</password>
-							<schemas>
-								<schema>forexpay</schema>
-							</schemas>
-						</configuration>
-					</execution>
 					<execution>
 						<id>second-execution</id>
 						<goals>
