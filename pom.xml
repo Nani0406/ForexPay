@@ -139,7 +139,7 @@
 						</goals>
 						<configuration>
 							<baselineOnMigrate>true</baselineOnMigrate>
-							<url>jdbc:mysql://13.233.124.209:3306</url>
+							<url>jdbc:mysql://13.233.121.125:3306</url>
 							<user>inguser</user>
 							<password>H@ckath0n</password>
 							<schemas>
