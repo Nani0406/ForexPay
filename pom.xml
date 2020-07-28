@@ -98,7 +98,6 @@
 			</property>
 		    </activation>
 		    <properties>
-			<flyway.driver>com.mysql.jdbc.Driver</flyway.driver>
 			<flyway.url>jdbc:mysql://13.233.119.209:3306//forexpay?useSSL=false</flyway.url>
 			<flyway.user>inguser</flyway.user>
 			<flyway.password>H@ckatha0n </flyway.password>
@@ -116,7 +115,6 @@
 			</property>
 		    </activation>
 		    <properties>
-			<flyway.driver>com.mysql.jdbc.Driver</flyway.driver>
 			<flyway.url>jdbc:mysql://13.233.121.125:3306//forexpay?useSSL=false</flyway.url>
 			<flyway.user>inguser</flyway.user>
 			<flyway.password>H@ckatha0n </flyway.password>
