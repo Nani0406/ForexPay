@@ -88,6 +88,45 @@
 			<url>http://15.206.222.205:8081/nexus/content/repositories/releases</url>
 		</repository>
 	</distributionManagement>
+	<profiles>
+		<profile>
+		    <activation>
+			<!-- activate if system properties 'env=sit' -->
+			<property>
+			    <name>env</name>
+			    <value>sit</value>
+			</property>
+		    </activation>
+		    <properties>
+			<db.driverClassName>com.mysql.jdbc.Driver</db.driverClassName>
+			<url>jdbc:mysql://13.233.119.209:3306</url>
+			<user>inguser</db.user>
+			<password>H@ckath0n</password>
+			<schemas>
+				<schema>forexpay</schema>
+			</schemas>
+		    </properties>
+		</profile>
+		<profile>
+		    <id>prod</id>
+		    <activation>
+			<!-- activate if system properties 'env=uat' -->
+			<property>
+			    <name>env</name>
+			    <value>sit</value>
+			</property>
+		    </activation>
+		    <properties>
+			<db.driverClassName>com.mysql.jdbc.Driver</db.driverClassName>
+			<url>jdbc:mysql://13.233.121.125:3306</url>
+			<user>inguser</db.user>
+			<password>H@ckath0n</password>
+			<schemas>
+				<schema>forexpay</schema>
+			</schemas>
+		    </properties>
+		</profile>
+	</profiles>
 
 	<build>
 		<plugins>
@@ -124,43 +163,6 @@
 						<goals>
 							<goal>report</goal>
 						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.flywaydb</groupId>
-			    	<artifactId>flyway-maven-plugin</artifactId>
-			    	<version>6.4.4</version>
-				<executions>
-					<execution>
-						<id>first-execution</id>
-						<goals>
-							<goal>migrate</goal>
-						</goals>
-						<configuration>
-							<baselineOnMigrate>true</baselineOnMigrate>
-							<url>jdbc:mysql://13.233.121.125:3306</url>
-							<user>inguser</user>
-							<password>H@ckath0n</password>
-							<schemas>
-								<schema>forexpay</schema>
-							</schemas>
-						</configuration>
-					</execution>
-					<execution>
-						<id>second-execution</id>
-						<goals>
-							<goal>migrate</goal>
-						</goals>
-						<configuration>
-							<baselineOnMigrate>true</baselineOnMigrate>
-							<url>jdbc:mysql://13.233.119.209:3306</url>
-							<user>inguser</user>
-							<password>H@ckath0n</password>
-							<schemas>
-								<schema>forexpay</schema>
-							</schemas>
-						</configuration>
 					</execution>
 				</executions>
 			</plugin>
