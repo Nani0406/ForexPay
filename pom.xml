@@ -98,11 +98,9 @@
 			</property>
 		    </activation>
 		    <properties>
-			<flyway.url>jdbc:mysql://13.233.119.209:3306//forexpay?useSSL=false</flyway.url>
-			<flyway.user>inguser</flyway.user>
-			<flyway.password>H@ckatha0n </flyway.password>
-			<flyway.schemas>forexpay </flyway.schemas>
-			<flyway.locations>filesystem:src/main/resources/db/migration</flyway.locations>
+			<db.url>jdbc:mysql://13.233.119.209:3306//forexpay?useSSL=false</db.url>
+			<db.username>inguser</db.username>
+			<db.password>H@ckatha0n </db.password>
 		    </properties>
 		</profile>
 		<profile>
