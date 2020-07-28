@@ -103,7 +103,7 @@
 			<flyway.user>inguser</flyway.user>
 			<flyway.password>H@ckatha0n </flyway.password>
 			<flyway.schemas>forexpay </flyway.schemas>
-			<flyway.locations>filesystem:src/main/resources/db/migration<flyway.locations>
+			<flyway.locations>filesystem:src/main/resources/db/migration</flyway.locations>
 		    </properties>
 		</profile>
 		<profile>
@@ -121,7 +121,7 @@
 			<flyway.user>inguser</flyway.user>
 			<flyway.password>H@ckatha0n </flyway.password>
 			<flyway.schemas>forexpay </flyway.schemas>
-			<flyway.locations>filesystem:src/main/resources/db/migration<flyway.locations>
+			<flyway.locations>filesystem:src/main/resources/db/migration</flyway.locations>
 		    </properties>
 		</profile>
 	</profiles>
