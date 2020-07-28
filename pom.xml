@@ -98,9 +98,9 @@
 			</property>
 		    </activation>
 		    <properties>
-			<db.url>jdbc:mysql://13.233.119.209:3306//forexpay?useSSL=false</db.url>
-			<db.username>inguser</db.username>
-			<db.password>H@ckatha0n </db.password>
+			<flyway.url>jdbc:mysql://13.233.119.209:3306//forexpay?useSSL=false</flyway.url>
+			<flyway.username>inguser</flyway.username>
+			<flyway.password>H@ckatha0n </flyway.password>
 		    </properties>
 		</profile>
 		<profile>
