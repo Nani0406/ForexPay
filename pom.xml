@@ -98,13 +98,12 @@
 			</property>
 		    </activation>
 		    <properties>
-			<db.driverClassName>com.mysql.jdbc.Driver</db.driverClassName>
-			<url>jdbc:mysql://13.233.119.209:3306</url>
-			<user>inguser</user>
-			<password>H@ckath0n</password>
-			
-				<schema>forexpay</schema>
-			
+			<flyway.driver>com.mysql.jdbc.Driver</flyway.driver>
+			<flyway.url>jdbc:mysql://13.233.119.209:3306//forexpay?useSSL=false</flyway.url>
+			<flyway.user>inguser</flyway.user>
+			<flyway.password>H@ckatha0n </flyway.password>
+			<flyway.schemas>forexpay </flyway.schemas>
+			<flyway.locations>filesystem:src/main/resources/db/migration<flyway.locations>
 		    </properties>
 		</profile>
 		<profile>
@@ -117,13 +116,12 @@
 			</property>
 		    </activation>
 		    <properties>
-			<db.driverClassName>com.mysql.jdbc.Driver</db.driverClassName>
-			<url>jdbc:mysql://13.233.121.125:3306</url>
-			<user>inguser</user>
-			<password>H@ckath0n</password>
-			
-				<schema>forexpay</schema>
-			
+			<flyway.driver>com.mysql.jdbc.Driver</flyway.driver>
+			<flyway.url>jdbc:mysql://13.233.121.125:3306//forexpay?useSSL=false</flyway.url>
+			<flyway.user>inguser</flyway.user>
+			<flyway.password>H@ckatha0n </flyway.password>
+			<flyway.schemas>forexpay </flyway.schemas>
+			<flyway.locations>filesystem:src/main/resources/db/migration<flyway.locations>
 		    </properties>
 		</profile>
 	</profiles>
