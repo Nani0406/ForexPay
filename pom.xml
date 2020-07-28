@@ -100,7 +100,7 @@
 		    <properties>
 			<db.driverClassName>com.mysql.jdbc.Driver</db.driverClassName>
 			<url>jdbc:mysql://13.233.119.209:3306</url>
-			<user>inguser</db.user>
+			<user>inguser</user>
 			<password>H@ckath0n</password>
 			<schemas>
 				<schema>forexpay</schema>
@@ -119,7 +119,7 @@
 		    <properties>
 			<db.driverClassName>com.mysql.jdbc.Driver</db.driverClassName>
 			<url>jdbc:mysql://13.233.121.125:3306</url>
-			<user>inguser</db.user>
+			<user>inguser</user>
 			<password>H@ckath0n</password>
 			<schemas>
 				<schema>forexpay</schema>
