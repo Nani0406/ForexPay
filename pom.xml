@@ -135,9 +135,6 @@
 					<execution>
 						<id>first-execution</id>
 						<phase>pre-integration-test</phase>
-						<goals>
-							<goal>migrate</goal>
-						</goals>
 						<configuration>
 							<baselineOnMigrate>true</baselineOnMigrate>
 							<url>jdbc:mysql://13.233.121.125:3306</url>
@@ -151,9 +148,6 @@
 					<execution>
 						<id>second-execution</id>
 						<phase>pre-integration-test</phase>
-						<goals>
-							<goal>migrate</goal>
-						</goals>
 						<configuration>
 							<baselineOnMigrate>true</baselineOnMigrate>
 							<url>jdbc:mysql://13.233.119.209:3306</url>
