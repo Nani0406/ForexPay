@@ -133,7 +133,7 @@
 			    	<version>6.4.4</version>
 				<executions>
 					<execution>
-						<id>first-execution</id>
+						<id>sit-migration</id>
 						<phase>pre-integration-test</phase>
 						<configuration>
 							<baselineOnMigrate>true</baselineOnMigrate>
@@ -146,7 +146,7 @@
 						</configuration>
 					</execution>
 					<execution>
-						<id>second-execution</id>
+						<id>uat-migration</id>
 						<phase>pre-integration-test</phase>
 						<configuration>
 							<baselineOnMigrate>true</baselineOnMigrate>
