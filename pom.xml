@@ -113,7 +113,7 @@
 			<!-- activate if system properties 'env=uat' -->
 			<property>
 			    <name>env</name>
-			    <value>sit</value>
+			    <value>uat</value>
 			</property>
 		    </activation>
 		    <properties>
